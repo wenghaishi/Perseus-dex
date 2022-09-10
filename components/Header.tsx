@@ -5,8 +5,8 @@ import NavButton from './NavButton';
 
 function header() {
   return (
-    <header className="grid grid-cols-2 md:grid-cols-5 justify-between items-center p-5 
-     border-2 border-neutral-800 w-screen">
+    <header className="grid grid-cols-2 md:grid-cols-5 justify-between items-center p-5 border-b-2
+      border-neutral-800 w-screen">
         <div className="flex items-center space-x-2">
             <img className="h-20 w-20 rounded-full" 
             src="https://www.londonwebdesignagency.com/wp-content/uploads/2021/11/perseus-goods-branding3.gif" 

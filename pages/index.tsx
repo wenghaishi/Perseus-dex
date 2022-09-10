@@ -3,10 +3,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Marquee from "react-fast-marquee";
 import Header from '../components/Header';
+import { useState, useEffect } from 'react';
+import { ethers } from 'ethers';
+
 
 
 
 const Home: NextPage = () => {
+
+  const [Provider, setProvider] = useState(undefined)
+  const [signer, setSigner] =  useState(undefined)
+  const [signerAddress, setSignerAddress] =useState(undefined)
+
   return (
     <div className="flex min-h-screen flex-col  bg-neutral-900">
       <Head>
@@ -35,3 +43,4 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
