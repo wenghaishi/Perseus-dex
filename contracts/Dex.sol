@@ -1,10 +1,7 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.14;
 
 contract Dex {
-    string public name = "perseous exchange";
-    
-
-
+    string public name = "dex";
 }
